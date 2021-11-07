@@ -1,5 +1,6 @@
 package com.example.rentapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.rentapp.databinding.ActivityMainBinding
@@ -11,5 +12,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.hide()
+
+        //Mandando a llamar formulario registrar_usuario
+        binding.btnRegistrar.setOnClickListener(){
+            startActivity(Intent(this, registrar_usuario::class.java))
+        }
     }
 }

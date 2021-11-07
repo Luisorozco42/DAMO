@@ -5,6 +5,16 @@
       <map>
         <entry key="..\:/Android/RentApp/app/src/main/res/layout/activity_main.xml" value="0.20677083333333332" />
         <entry key="..\:/Android/RentApp/app/src/main/res/layout/fragment_principal.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DAMO/app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DAMO/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DAMO/app/src/main/res/layout/activity_main_arrendador.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DAMO/app/src/main/res/layout/activity_registrar_usuario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DAMO/app/src/main/res/layout/fragment_iniciosesion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DAMO/app/src/main/res/layout/fragment_mainarrendador.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DAMO/app/src/main/res/layout/fragment_mainarrendatario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DAMO/app/src/main/res/layout/fragment_principal.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DAMO/app/src/main/res/layout/fragment_registeruser.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DAMO/app/src/main/res/layout/fragment_registeruser2.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

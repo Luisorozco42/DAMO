@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registrar_usuario">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imgFotoPerfil"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="75dp"/>
+
+            <Button
+                android:id="@+id/btnTomarFoto"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="125dp"
+                android:text="Tomar Foto"/>
+
+            <EditText
+                android:id="@+id/txtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:hint="Ingrese su nombre"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                />
+
+            <EditText
+                android:id="@+id/txtApellido"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:hint="Ingrese su apellido"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                />
+
+            <EditText
+                android:id="@+id/fechaNacimiento"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:hint="Fecha de nacimiento"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                />
+
+            <RadioGroup
+                android:id="@+id/OpcionesUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="25dp">
+                <RadioButton
+                    android:id="@+id/rbArrendatario"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Busco alquilar o comprar un inmueble"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/rbArrendador"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Busco ofrecer en alquiler o venta un inmueble"/>
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:hint="Ingrese su email"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/txtNumeroCedula"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:hint="Ingrese su numero de cedula"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/txtContraseña"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:inputType="textPassword"
+                android:hint="Ingrese su contraseña"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/txtConfirmarContraseña"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:inputType="textPassword"
+                android:hint="Confirme su contraseña"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/txtTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:hint="Numero de telefono"
+                android:textAlignment="center"
+                android:inputType="number"/>
+
+            <Button
+                android:id="@+id/btnGuardarUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/md_theme_dark_primaryInverse"
+                android:text="@string/guardar"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

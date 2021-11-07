@@ -6,35 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".PrincipalFragment">
 
-    <Button
-        android:id="@+id/btnRegistrar"
-        android:layout_width="match_parent"
-        android:layout_height="71dp"
-        android:layout_marginTop="600dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:text="@string/registrar"
-        android:background="@color/md_theme_dark_primaryInverse" />
 
-    <Button
-        android:id="@+id/btnIniciarSesion"
-        android:layout_width="match_parent"
-        android:layout_height="71dp"
-        android:layout_marginTop="520dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:text="@string/iniciar_sesi_n"
-        android:background="@color/md_theme_dark_primaryInverse"
-        app:cornerRadius="100dp"
-        />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="297dp"
-        android:layout_height="227dp"
-        android:layout_marginLeft="55dp"
-        android:layout_marginTop="150dp"
-        android:src="@drawable/logo"
-        />
 
 </FrameLayout>

@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RentApp">
         <activity
+            android:name=".main_arrendatario"
+            android:exported="true" />
+        <activity
+            android:name=".main_arrendador"
+            android:exported="true" />
+        <activity
+            android:name=".iniciar_sesion"
+            android:exported="true" />
+        <activity
+            android:name=".registrar_usuario"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

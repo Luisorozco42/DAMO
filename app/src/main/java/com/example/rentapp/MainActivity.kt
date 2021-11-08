@@ -17,5 +17,8 @@ class MainActivity : AppCompatActivity() {
         binding.btnRegistrar.setOnClickListener(){
             startActivity(Intent(this, registrar_usuario::class.java))
         }
+        binding.btnIniciarSesion.setOnClickListener(){
+            startActivity(Intent(this, iniciar_sesion::class.java))
+        }
     }
 }

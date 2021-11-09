@@ -14,4 +14,13 @@
         <!-- Customize your theme here. -->
         <item name="android:background">@color/verdeaqua</item>
     </style>
+
+    <style name="Theme.RentApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.RentApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.RentApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

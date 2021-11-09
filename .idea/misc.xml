@@ -34,9 +34,16 @@
         <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/layout/activity_arendatario_menu.xml" value="0.1983695652173913" />
         <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/layout/activity_inmuebles_espera.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/layout/activity_main_arrendedor.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/layout/activity_registrar_usuario.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/layout/app_bar_arendatario_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/layout/arrendador_edicion_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/layout/arrentario_venta_fragment.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/layout/content_arendatario_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/layout/fragment_gallery.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/layout/fragment_slideshow.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/layout/list_inmueble_espera.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/layout/nav_header_arendatario_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/menu/activity_arrendatario_drawer.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/menu/activity_espera_inmueble_drawer.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/marco/AndroidStudioProjects/DAMO/app/src/main/res/menu/activity_inmuebleEspera_drawer.xml" value="0.536" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.rentapp">
+    package="com.example.rentapp" >
 
     <application
         android:allowBackup="true"
@@ -8,12 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.RentApp">
-        <activity
-            android:name=".InmueblesEsperaActivity"
-            android:exported="true"
-            android:label="@string/title_activity_inmuebles_espera"
-            android:theme="@style/Theme.RentApp.NoActionBar" />
+        android:theme="@style/Theme.RentApp" >
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -22,7 +17,9 @@
         <activity
             android:name=".arrendatario.arendatario_menu"
             android:exported="true"
-            android:label="@string/title_activity_arendatario_menu" />
+            android:label="@string/title_activity_arendatario_menu"
+            android:theme="@style/Theme.RentApp.NoActionBar" />
+
         <activity
             android:name=".iniciar_sesion"
             android:exported="true" />
@@ -31,7 +28,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

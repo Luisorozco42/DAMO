@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RentApp" >
         <activity
+            android:name="com.example.arrendador.MainArrendadorActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main_arrendador"
+            android:theme="@style/Theme.RentApp.NoActionBar" />
+        <activity
             android:name=".main_arrendador"
             android:exported="false"
             android:label="@string/title_activity_main_arrendador"

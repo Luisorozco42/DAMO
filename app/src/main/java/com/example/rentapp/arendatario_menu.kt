@@ -11,7 +11,8 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
-import com.example.rentapp.arrendatario.databinding.ActivityArendatarioMenuBinding
+import com.example.rentapp.R
+import com.example.rentapp.databinding.ActivityArendatarioMenuBinding
 
 class arendatario_menu : AppCompatActivity() {
 

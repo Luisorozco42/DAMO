@@ -22,4 +22,5 @@
     <string name="menu_slideshow" />
     <string name="title_activity_arrendatario">ArrendatarioActivity</string>
     <string name="title_activity_main_arrendador">main_arrendador</string>
+    <string name="title_activity_inmuebles_espera">InmueblesEsperaActivity</string>
 </resources>

@@ -37,14 +37,14 @@
         android:id="@+id/ivImagenes"
         android:layout_width="398dp"
         android:layout_height="235dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toTopOf="@+id/txtPrecio"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintHorizontal_bias="0.307"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        tools:src="@tools:sample/avatars" />
+        tools:background="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/txtDescripcion"
@@ -55,21 +55,20 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/ivImagenes"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
-        android:layout_width="290dp"
-        android:layout_height="210dp"
+        android:layout_width="379dp"
+        android:layout_height="256dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toTopOf="@+id/txtDescripcion"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.888"
         tools:ignore="SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

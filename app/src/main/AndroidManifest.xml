@@ -10,10 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RentApp" >
         <activity
-            android:name=".ArrendatarioActivity"
-            android:exported="true"
-            android:label="@string/title_activity_arrendatario"
+            android:name=".main_arrendador"
+            android:exported="false"
+            android:label="@string/title_activity_main_arrendador"
             android:theme="@style/Theme.RentApp.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
         <activity
             android:name=".arrendatario.arendatario_menu"
             android:exported="true"
@@ -21,9 +26,6 @@
             android:theme="@style/Theme.RentApp.NoActionBar" />
         <activity
             android:name=".main_arrendatario"
-            android:exported="true" />
-        <activity
-            android:name=".main_arrendador"
             android:exported="true" />
         <activity
             android:name=".iniciar_sesion"

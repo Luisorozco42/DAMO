@@ -20,4 +20,5 @@
     <string name="ver_m_s_detalles">Ver más detalles</string>
     <string name="menu_gallery" />
     <string name="menu_slideshow" />
+    <string name="title_activity_arrendatario">ArrendatarioActivity</string>
 </resources>
